@@ -1,8 +1,8 @@
-require 'kasapp.rb'
+require './kasapp'
 
-configure do
+#configure do
  
   # Set the views to 
-  set :views, File.join(Sinatra::Application.root, "app", "views")
-end
+ # set :views, File.join(Sinatra::Application.root, "app", "views")
+#end
 run Sinatra::Application
