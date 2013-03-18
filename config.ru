@@ -1,9 +1,7 @@
-require './kas'
-
+require './kasapp'
 
 configure do
  
-
   # Set the views to 
   set :views, File.join(Sinatra::Application.root, "app", "views")
 end
