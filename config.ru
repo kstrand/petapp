@@ -1,4 +1,4 @@
-require './kasapp'
+require 'kasapp.rb'
 
 configure do
  
