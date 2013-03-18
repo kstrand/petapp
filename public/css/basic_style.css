@@ -1,0 +1,45 @@
+/** basic CSS styles **/
+
+body{
+  font-family: 'Montserrat';
+  color: rgba(256,256,256, 1.0);
+}
+
+.container {
+  margin:  80px auto;
+  width:   600px;
+  padding: 0px 20px 20px 20px      
+}
+
+#keith-name {
+  border-radius: 14px 14px 0px 0px ;
+  border-top: 34px solid red;
+  background-color: rgb(123,123,123);
+  padding: 10px 220px 20px 20px
+}
+
+#description{
+   float: left;
+   background-color: rgb(123,123,123);
+   padding: 10px 0px 20px 20px
+}
+
+#links {
+  margin:50px auto;
+  border-radius: 14px 14px 0px 0px ;
+  border-top: 34px solid red;
+  background-color: rgb(123,123,123);
+  padding: 10px 60px 20px 20px
+}
+
+a:link    { color:black; text-decoration: none}      /* unvisited link */
+a:hover   { background-color:yellow; text-decoration: none }
+a:visited { color:black; text-decoration: none}  /* visited link */
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 10px 6px -6px black;
+  -moz-box-shadow: 0 10px 6px -6px black;
+  box-shadow: 0 10px 6px -6px black;
+}
+
+
