@@ -1,6 +1,7 @@
 /** basic CSS styles **/
 
 body{
+  background-color: #f9f7f4;
   font-family: 'Montserrat';
   color: rgba(256,256,256, 1.0);
 }
